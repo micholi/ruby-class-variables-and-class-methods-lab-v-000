@@ -35,14 +35,9 @@ attr_accessor :name, :artist, :genre
         genre_count_hash[genre] += 1
       else
         genre_count_hash[genre] = 1
-
-
-
-end
-
-
-end
-genre_count_hash
+      end
+    end
+      genre_count_hash
 end
 
   def self.artist_count
