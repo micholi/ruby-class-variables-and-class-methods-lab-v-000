@@ -44,7 +44,7 @@ end
 
 
 end
-genre_hash
+genre_hash[@genre]
 end
 
   def self.artist_count
