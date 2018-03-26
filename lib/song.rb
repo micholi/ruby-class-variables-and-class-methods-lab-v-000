@@ -34,7 +34,7 @@ attr_accessor :name, :artist, :genre
       if genre_count_hash.include?(genre)
         genre_count_hash[genre] += 1
       else
-        genre__count_hash[genre] = 1
+        genre_count_hash[genre] = 1
 
 
 
