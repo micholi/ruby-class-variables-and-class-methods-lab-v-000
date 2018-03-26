@@ -16,10 +16,11 @@ attr_accessor :name, :artist, :genre
   end
 
   def artists
-    
+
   end
 
   def genre_count
+    
   end
 
 end
