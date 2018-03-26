@@ -36,15 +36,15 @@ attr_accessor :name, :artist, :genre
         genre_hash[@genre] = {}
         genre_hash[@genre] = v
       else
-        v += 1
+        genre_hash[@genre] = v + 1
 
 
 
 end
-
+genre_hash
 
 end
-genre_hash[@genre]
+
 end
 
   def self.artist_count
