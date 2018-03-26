@@ -29,7 +29,7 @@ attr_accessor :name, :artist, :genre
 
   def self.genre_count
     genre_hash = {}
-    
+    genre_hash[@genre] = []
   end
 
   def self.artist_count
