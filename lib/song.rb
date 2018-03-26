@@ -36,7 +36,7 @@ attr_accessor :name, :artist, :genre
         genre_hash[@genre] = v
       else
         v += 1
-      
+
 
 
 end
