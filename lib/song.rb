@@ -30,7 +30,13 @@ attr_accessor :name, :artist, :genre
   def self.genre_count
     genre_hash = {}
     genre_hash[@genre] = []
-    @@genres.each {|genre, x = 0| @@genres[@genre] << x }
+    @@genres.each do |genre, x = 0|
+      if genre_hash.include?(genre)
+        x+= 1
+        genre_hash
+      end
+
+    end
   end
 
   def self.artist_count
