@@ -32,7 +32,8 @@ attr_accessor :name, :artist, :genre
 v = 0
     @@genres.each do |genre|
       if !genre_hash.include?(genre)
-        genre_hash[genre] << v = 1
+        genre_hash[genre] = []
+        genre_hash[genre] << v
       else
         v += 1
 
