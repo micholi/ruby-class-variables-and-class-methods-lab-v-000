@@ -29,9 +29,10 @@ attr_accessor :name, :artist, :genre
 
   def self.genre_count
     genre_hash = {}
-    v = 0
+    
     @@genres.each do |genre|
-
+      if !@@genres.include?(genre)
+        genre_hash[@genre] << v = 1
 
     #  @@genres.group_by{ |v| v }
     #  Hash[*data.group_by{ |v| v }.flat_map{ |k, v| [k, v.size] }]
