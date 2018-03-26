@@ -37,8 +37,7 @@ v = 0
       else
         v += 1
 
-    #  @@genres.group_by{ |v| v }
-    #  Hash[*data.group_by{ |v| v }.flat_map{ |k, v| [k, v.size] }]
+
 end
 genre_hash
 end
