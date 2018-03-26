@@ -31,8 +31,8 @@ attr_accessor :name, :artist, :genre
     genre_hash = {}
     #genre_hash[@genre] = []
 
-    @@genres.each do |genre, x = 0|
-      @@genres.group_by{ |v| v }.flat_map{ |k, v| [k, v.size] }
+  
+      @@genres.group_by{ |v| v }
   end
 end
 
