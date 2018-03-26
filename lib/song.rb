@@ -41,8 +41,10 @@ attr_accessor :name, :artist, :genre
 
 
 end
-genre_hash
+
+
 end
+genre_hash
 end
 
   def self.artist_count
