@@ -31,7 +31,7 @@ attr_accessor :name, :artist, :genre
     genre_hash = {}
     #genre_hash[@genre] = []
 
-  
+
       @@genres.group_by{ |v| v }
   
 end
