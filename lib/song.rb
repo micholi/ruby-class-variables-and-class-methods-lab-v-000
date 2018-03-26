@@ -29,7 +29,8 @@ attr_accessor :name, :artist, :genre
 
   def self.genre_count
     genre_hash = {}
-    @@genres.each do |
+    v = 0
+    @@genres.each do |genre|
 
 
     #  @@genres.group_by{ |v| v }
