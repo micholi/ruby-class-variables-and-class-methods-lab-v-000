@@ -20,7 +20,7 @@ attr_accessor :name, :artist, :genre
   end
 
   def artists
-
+    @@artists.uniq
   end
 
   def genres
