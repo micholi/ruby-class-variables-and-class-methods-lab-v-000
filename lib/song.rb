@@ -38,7 +38,7 @@ attr_accessor :name, :artist, :genre
         genre_hash[@genre] << x
 
       end
-
+genre_hash
     end
   end
 
