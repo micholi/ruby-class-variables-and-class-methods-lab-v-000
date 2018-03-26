@@ -10,13 +10,13 @@ attr_accessor :name, :artist, :genre
     @name = name
     @artist = artist
     @genre = genre
+    @@artists << artist
+    @@genres << genre
     @@count += 1
   end
 
   def artists
-    @@artists.each {|a| a != artist}
-      @@artists << artist
-        @@artists
+    
   end
 
   def genre_count
