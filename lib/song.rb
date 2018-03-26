@@ -16,6 +16,7 @@ attr_accessor :name, :artist, :genre
   def artists
     @@artists.each {|a| a != @artist}
       @@artists << @artist
+        @@artists
   end
 
   def genre_count
