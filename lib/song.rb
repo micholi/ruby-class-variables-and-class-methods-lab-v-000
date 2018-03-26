@@ -13,7 +13,7 @@ attr_accessor :name, :artist, :genre
     @@count += 1
   end
 
-  def artists(@artist)
+  def artists
     @@artists.none? {|a| a == @artist}
       @@artists << @artist
   end
