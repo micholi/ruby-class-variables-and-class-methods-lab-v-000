@@ -33,7 +33,7 @@ attr_accessor :name, :artist, :genre
     @@genres.each do |genre, x = 0|
       if genre_hash.include?(genre)
         x+= 1
-        genre_hash
+        genre_hash[genre] << x
       end
 
     end
