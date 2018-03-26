@@ -35,7 +35,7 @@ attr_accessor :name, :artist, :genre
         x+= 1
       else
         genre_hash[@genre] = []
-        genre_hash[genre] << x
+        genre_hash[@genre] << x
 
       end
 
