@@ -34,7 +34,7 @@ attr_accessor :name, :artist, :genre
       if !genre_hash.include?(genre)
         v = 1
         genre_hash[@genre] = {}
-        genre_hash[@genre] < v
+        genre_hash[@genre] = v
       else
         genre_hash[@genre] = v + 1
 
