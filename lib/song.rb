@@ -14,8 +14,8 @@ attr_accessor :name, :artist, :genre
   end
 
   def artists
-    @@artists.each {|a| a != @artist}
-      @@artists << @artist
+    @@artists.each {|a| a != artist}
+      @@artists << artist
         @@artists
   end
 
