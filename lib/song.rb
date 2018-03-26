@@ -34,8 +34,7 @@ v = 0
       if !genre_hash.include?(genre)
         genre_hash[@genre] = []
         genre_hash[@genre] << v
-      else
-        v += 1
+      
 
 
 end
